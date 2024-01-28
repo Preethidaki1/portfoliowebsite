@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/88750aa7b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div>
+      <nav class="Navbar">
+        <div class="logo">
+          <h1>Preethi Daki</h1>
+          <div>
+            <button id="hamburger">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <button id="close" class="hide">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+        </div>
+        <div>
+          <div class="navlinks" id="navlinks">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Project">Project</a>
+            <a href="#Contact">Contact</a>
+          </div>
+        </div>
+      </nav>
+      <!-- /...................................................... -->
+      <div class="Profile-section" id="Home">
+        <div class="image">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt=""
+          />
+        </div>
+        <div class="profile">
+          <p>Hello, I'm</p>
+          <h1>Preethi Daki</h1>
+          <h1>Looking for a job opportunity</h1>
+          <button><a href="resume2.pdf">Download CV</a></button>
+          <button><a href="#Contact">Contact</a></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ......................................................................... -->
+      <div class="about" id="About">
+        <div>
+        <div>
+          <p>Get To Know More</p>
+          <h1>About Me</h1>
+        </div>
+        <div class="xyz">
+        <div class="education-container">
+          <img src="https://res.cloudinary.com/dzxemuctv/image/upload/v1706443750/WhatsApp_Image_2024-01-28_at_16.38.27_2371103b_zm7uga.jpg" alt="" class="icon">
+         <h3>Education</h3>
+          <p>Bachelor Of Technology in<br />Computer Science and Enginerring</p>
+        <p >
+          During my internships as a web developer intern at Harmony Infotech
+          and as a frontend developer intern at Infotech, I had the opportunity
+          to work on various projects and build a range of websites. Some of the
+          websites I developed include an online book library, an online course
+          dashboard, and an online music website. These experiences allowed me
+          to apply my skills in web development and gain hands-on experience in
+          creating functional and user-friendly websites. By working on these
+          diverse projects, I was able to enhance my knowledge of different
+          programming languages, frameworks, and tools used in web development.
+        </p>
+      </div>
+    </div>
+        
+      </div>
+
+
+
+      <!-- ..................................................................................... -->
+      <div class="projects-container" id="Project">
+
+         
+        <h1 >Projects</h1>
+
+
+        <div class="projects-box-container">
+          
+            
+          <div class="project-details-box-container">
+            <div>
+            <div >
+              <img
+                src="https://res.cloudinary.com/dzxemuctv/image/upload/v1706442983/WhatsApp_Image_2024-01-28_at_16.40.47_86e8f535_erea9s.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+
+            </div>
+            <h2 >Project One</h2>
+            <div class="btn-container">
+
+
+
+              <button
+              onclick="location.href='https://github.com/'"
+
+              >
+                Github
+              </button>
+
+
+              <button
+               onclick="location.href='https://preethidaki1.github.io/book/'"
+
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          </div>
+
+          <div class="project-details-box-container">
+            <div>
+            <div >
+              <img
+                src="https://res.cloudinary.com/dzxemuctv/image/upload/v1706443101/WhatsApp_Image_2024-01-28_at_16.40.46_a51a0eb7_rcb7cl.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+
+            </div>
+            <h2 >Project One</h2>
+            <div class="btn-container">
+
+
+
+              <button
+              onclick="location.href='https://github.com/'"
+
+              >
+                Github
+              </button>
+
+
+              <button
+               onclick="location.href='https://preethidaki1.github.io/book/'"
+
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          </div>
+
+
+
+          <div class="project-details-box-container">
+            <div>
+            <div >
+              <img
+                src="https://res.cloudinary.com/dzxemuctv/image/upload/v1706443101/WhatsApp_Image_2024-01-28_at_16.40.46_a51a0eb7_rcb7cl.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+
+            </div>
+            <h2 >Project One</h2>
+            <div class="btn-container">
+
+
+
+              <button
+              onclick="location.href='https://github.com/'"
+
+              >
+                Github
+              </button>
+
+
+              <button
+               onclick="location.href='https://preethidaki1.github.io/book/'"
+
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+<!-- ................................................................................................... -->
+
+<div class="contact-container" id="Contact">
+  <div>
+  <p>Get in Touch</p>
+  <h1>Contact Me</h1>
+  <div class="contact-us-details">
+    <div class="gmail-container">
+      <img src="https://res.cloudinary.com/dzxemuctv/image/upload/v1706442860/WhatsApp_Image_2024-01-28_at_16.38.49_3a5b772a_sv5chc.jpg" alt="" class="icon">
+      <p><a href="mailto:examplemail@gmail.com">preethidaki09@gmail.com</a></p>
+
+    </div>
+    <div class="linkedin-container">
+      <img src="https://res.cloudinary.com/dzxemuctv/image/upload/v1706442177/WhatsApp_Image_2024-01-28_at_16.39.02_62d3293c_kvn9cv.jpg" alt="" class="icon">
+      <p><a href="https://www.linkedin.com/in/preethi-daki-513972239">LinkedIn</a></p>
+
+    </div>
+    <div class="github-container">
+      <img src="https://res.cloudinary.com/dzxemuctv/image/upload/v1706442596/WhatsApp_Image_2024-01-28_at_16.38.54_528a9bbd_eek7mc.jpg" alt="" class="icon">
+      <p><a href="https://githun.com/preethidaki1">Github</a></p>
+    </div>  
+  </div>
+
+</div>
+
+</div>
+<p class="copyright-text">Copyright &#169; 2023 Preethi Daki All Rights Reserved.</p>
+
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
